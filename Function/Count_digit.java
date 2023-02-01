@@ -6,7 +6,7 @@ public class Count_digit {
         int cnt = 0;
         while(n > 0){
             // int lastDigit = n % 10;
-            cnt = cnt + 1;
+            cnt = cnt + 1; // cnt++;
             n = n / 10;
         }
         return cnt;
