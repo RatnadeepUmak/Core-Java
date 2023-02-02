@@ -6,14 +6,14 @@ public class Armstrong_Num {
 		int len = 0;
 		
 		
-		while(t1 != 0) {
-			len = len + 1;
+		while(t1 > 0) {
+			len++;
 			t1 = t1 / 10;
 		}
 		int t2 = n;
 		int rem;
 		int ans = 0;
-		while(t2 != 0) {
+		while(t2 > 0) {
 			int mul = 1;
 			rem = t2 % 10;
 			for(int i = 1; i <= len; i++) {
