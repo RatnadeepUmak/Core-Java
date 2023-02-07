@@ -1,5 +1,7 @@
 package Function;
-import java.util.*;
+
+import java.util.Scanner;
+
 public class Count_digit {
 
     static int count(int n){
