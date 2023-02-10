@@ -1,23 +1,20 @@
 package ArrayUse;
-import java.io.LineNumberInputStream;
-import java.util.*;
 public class Linear_Search {
-    
-    static int linearSearch(int input[], int x){
 
-        for(int i = 0; i < input.length; i++){
-            if(input[i] == x){
-            return i;     
+    static int linearSearch(int arr[], int x){
+        // int val = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(x == arr[i]){
+                return i;
             }
         }
         return -1;
-        
     }
     public static void main(String args[]){
-            Scanner s = new Scanner(System.in);
-            int n = s.nextInt();
-            int x = s.nextInt();
-            // System.out.println(x+" "+linearSearch(n  , x));
+        int arr[] = {1,5,2,8,34,9};
+        int index = linearSearch(arr, 9);
+        System.out.println(index);
     }
-    
 }
+    
+
