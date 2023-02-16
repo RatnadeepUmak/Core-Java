@@ -28,4 +28,5 @@ public class Return_Array_Sum {
         int total = sum(arr);
         System.out.println("Sum is: "+total);
     }    
+   
 }
